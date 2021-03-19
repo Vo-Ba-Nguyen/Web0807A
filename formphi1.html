@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <fieldset>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <h1>Details</h1>
+    <form>
+        <p>User Name</p>
+       <input type="text-input" name ="User name">
+       <p>Password</p>
+       <input type ="password" name="Password">
+       <input type ="submit" value ="Login">
+    <form action="action page.php">
+    </form>
+</fieldset>
+</head>
+<body>
+    <fieldset>
+    <legend>Select and radio</legend>
+    <label>Where do you live?</label>
+    <p>
+        <select Name ="Choose a country">
+            <option value ="0">Choose a country </option>
+            <option id="HN"  name ="from"value ="HaNoi"> <label id="HN">HaNoi</label>
+            <option id ="DN" name ="from"value ="DaNang"><label id="DN">DaNang</label>
+            <option id="HP"  name ="from"value="HaiPhong"><label id="HP">HaiPhong</label>
+            <option id ="HCM" name="from" value="HoChiMinh"><label id="HCM">HoChiMinh</label>
+        </select>
+        <label></label> 
+         <input id="hn" type="radio" name ="select" value="HaNoi">HaNoi
+         <input id="dn" type ="radio"value ="DaNang" Name="select">DaNang
+         <input id="hp" type ="radio"value ="HaiPhong" Name="select">HaiPhong
+         <input id="hcm" type ="radio"value ="HoChiMinh" Name="select">HoChiMinh
+    </p>
+    <fieldset>
+        <legend>Check Box</legend>
+        <label>Where do you want to visit?</label>
+        <p>
+            <select Name ="Choose a country">
+                <option value ="0">Choose a country</option>
+                <option id="HN" type="radio" value ="HaNoi"> <label id="HN">HaNoi</label>
+                <option id ="DN" type="radio" value ="DaNang"><label id="DN">DaNang</label>
+                <option id="HP" type="radio" value="HaiPhong"><label id="HP">HaiPhong</label>
+                <option id ="HCM" type="radio" value="HoChiMinh"><label id="HCM">HoChiMinh</label>
+            </select>
+        </p>
+        <label></label> 
+        <input id="hn" type="radio" name ="select" value="HaNoi">HaNoi
+        <input id="dn" type ="radio"value ="DaNang" Name="select">DaNang
+        <input id="hp" type ="radio"value ="HaiPhong" Name="select">HaiPhong
+        <input id="hcm" type ="radio"value ="HoChiMinh" Name="select">HoChiMinh
+    </fieldset>
+</fieldset>
+
+</body>
+</html>
